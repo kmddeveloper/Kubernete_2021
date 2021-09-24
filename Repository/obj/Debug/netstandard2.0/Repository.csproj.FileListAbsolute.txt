@@ -1,0 +1,8 @@
+C:\MyStuffs\Projects\Kubernetes\Repository\bin\Debug\netstandard2.0\Repository.deps.json
+C:\MyStuffs\Projects\Kubernetes\Repository\bin\Debug\netstandard2.0\Repository.dll
+C:\MyStuffs\Projects\Kubernetes\Repository\bin\Debug\netstandard2.0\Repository.pdb
+C:\MyStuffs\Projects\Kubernetes\Repository\obj\Debug\netstandard2.0\Repository.csproj.CoreCompileInputs.cache
+C:\MyStuffs\Projects\Kubernetes\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfoInputs.cache
+C:\MyStuffs\Projects\Kubernetes\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfo.cs
+C:\MyStuffs\Projects\Kubernetes\Repository\obj\Debug\netstandard2.0\Repository.dll
+C:\MyStuffs\Projects\Kubernetes\Repository\obj\Debug\netstandard2.0\Repository.pdb

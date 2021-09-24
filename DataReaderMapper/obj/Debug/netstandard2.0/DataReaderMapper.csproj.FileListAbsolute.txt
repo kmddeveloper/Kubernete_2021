@@ -1,0 +1,16 @@
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\bin\Debug\netstandard2.0\DataReaderMapper.deps.json
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\bin\Debug\netstandard2.0\DataReaderMapper.dll
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\bin\Debug\netstandard2.0\DataReaderMapper.pdb
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\bin\Debug\netstandard2.0\ApiSettings.dll
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\bin\Debug\netstandard2.0\IndexDefManager.dll
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\bin\Debug\netstandard2.0\TypeExtensions.dll
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\bin\Debug\netstandard2.0\ApiSettings.pdb
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\bin\Debug\netstandard2.0\IndexDefManager.pdb
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\bin\Debug\netstandard2.0\TypeExtensions.pdb
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\obj\Debug\netstandard2.0\DataReaderMapper.csprojAssemblyReference.cache
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\obj\Debug\netstandard2.0\DataReaderMapper.csproj.CoreCompileInputs.cache
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\obj\Debug\netstandard2.0\DataReaderMapper.AssemblyInfoInputs.cache
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\obj\Debug\netstandard2.0\DataReaderMapper.AssemblyInfo.cs
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\obj\Debug\netstandard2.0\DataReaderMapper.csproj.CopyComplete
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\obj\Debug\netstandard2.0\DataReaderMapper.dll
+C:\VersoMVC\6.0\AGCore\APILibrary\DataReaderMapper\obj\Debug\netstandard2.0\DataReaderMapper.pdb

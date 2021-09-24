@@ -1,0 +1,9 @@
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\EFModel\bin\Release\netstandard2.1\EFModel.deps.json
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\EFModel\bin\Release\netstandard2.1\EFModel.dll
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\EFModel\bin\Release\netstandard2.1\EFModel.pdb
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\EFModel\obj\Release\netstandard2.1\EFModel.AssemblyInfoInputs.cache
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\EFModel\obj\Release\netstandard2.1\EFModel.AssemblyInfo.cs
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\EFModel\obj\Release\netstandard2.1\EFModel.csproj.CoreCompileInputs.cache
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\EFModel\obj\Release\netstandard2.1\EFModel.dll
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\EFModel\obj\Release\netstandard2.1\EFModel.pdb
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\EFModel\obj\Release\netstandard2.1\EFModel.csproj.AssemblyReference.cache

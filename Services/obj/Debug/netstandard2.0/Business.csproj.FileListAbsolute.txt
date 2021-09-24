@@ -1,0 +1,8 @@
+C:\MyStuffs\Projects\Kubernetes\Business\bin\Debug\netstandard2.0\Business.deps.json
+C:\MyStuffs\Projects\Kubernetes\Business\bin\Debug\netstandard2.0\Business.dll
+C:\MyStuffs\Projects\Kubernetes\Business\bin\Debug\netstandard2.0\Business.pdb
+C:\MyStuffs\Projects\Kubernetes\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+C:\MyStuffs\Projects\Kubernetes\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+C:\MyStuffs\Projects\Kubernetes\Business\obj\Debug\netstandard2.0\Business.dll
+C:\MyStuffs\Projects\Kubernetes\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\MyStuffs\Projects\Kubernetes\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache

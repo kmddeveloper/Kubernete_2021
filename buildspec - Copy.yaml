@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+    install:
+        runtime-versions:
+            dotnet: 3.1
+    build:
+        commands:
+            - dotnet build -c Release ./Kubernetes/Web.csproj
+            - dotnet test -c Release ./xUnitTest/xUnitTest.csproj --logger trx --results-directory ./testresults
+reports:
+    DotnetTestExamples:
+        file-format: VisualStudioTrx
+        files:
+            - '**/*'
+        base-directory: './testresults'

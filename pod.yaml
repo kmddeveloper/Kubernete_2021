@@ -1,0 +1,111 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: "2020-06-18T23:49:31Z"
+  generateName: web-8478975bd8-
+  labels:
+    com.docker.service.id: webstack-web
+    com.docker.service.name: web
+    com.docker.stack.namespace: webstack
+    pod-template-hash: 8478975bd8
+  name: web-8478975bd8-92lxn
+  namespace: default
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: ReplicaSet
+    name: web-8478975bd8
+    uid: 80078dc2-b46c-4ae7-baf1-856945e3d605
+  resourceVersion: "62650"
+  selfLink: /api/v1/namespaces/default/pods/web-8478975bd8-92lxn
+  uid: 7f434d30-b4ab-4e6a-a22b-44badb5febca
+spec:
+  affinity:
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+        - matchExpressions:
+          - key: beta.kubernetes.io/os
+            operator: In
+            values:
+            - linux
+          - key: beta.kubernetes.io/arch
+            operator: In
+            values:
+            - amd64
+  containers:
+  - image: web
+    imagePullPolicy: IfNotPresent
+    name: web
+    ports:
+    - containerPort: 80
+      protocol: TCP
+    resources: {}
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: default-token-nx7v5
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  nodeName: docker-desktop
+  priority: 0
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext: {}
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 30
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - name: default-token-nx7v5
+    secret:
+      defaultMode: 420
+      secretName: default-token-nx7v5
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: "2020-06-18T23:49:31Z"
+    status: "True"
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: "2020-06-18T23:49:32Z"
+    status: "True"
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: "2020-06-18T23:49:32Z"
+    status: "True"
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: "2020-06-18T23:49:31Z"
+    status: "True"
+    type: PodScheduled
+  containerStatuses:
+  - containerID: docker://8f868e7667aaa485dc91988f1a31630b9e5e68cc90d9ed8699d18fec8a10260b
+    image: kmddeveloper/web:latest
+    imageID: docker-pullable://kmddeveloper/web@sha256:a2ce57458f79ddc762997ac228a4026a4345602f942b1bdef1d26d8724d8c3dd
+    lastState: {}
+    name: web
+    ready: true
+    restartCount: 0
+    started: true
+    state:
+      running:
+        startedAt: "2020-06-18T23:49:32Z"
+  hostIP: 192.168.65.3
+  phase: Running
+  podIP: 10.1.0.23
+  podIPs:
+  - ip: 10.1.0.23
+  qosClass: BestEffort
+  startTime: "2020-06-18T23:49:31Z"

@@ -1,0 +1,9 @@
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\bin\Release\netstandard2.1\GlobalConstants.deps.json
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\bin\Release\netstandard2.1\GlobalConstants.dll
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\bin\Release\netstandard2.1\GlobalConstants.pdb
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.AssemblyInfoInputs.cache
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.AssemblyInfo.cs
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.csproj.CoreCompileInputs.cache
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.dll
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.pdb
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.csproj.AssemblyReference.cache

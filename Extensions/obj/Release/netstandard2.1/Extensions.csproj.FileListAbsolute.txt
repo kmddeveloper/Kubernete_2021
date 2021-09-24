@@ -1,0 +1,9 @@
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\bin\Release\netstandard2.1\Extensions.deps.json
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\bin\Release\netstandard2.1\Extensions.dll
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\bin\Release\netstandard2.1\Extensions.pdb
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\obj\Release\netstandard2.1\Extensions.AssemblyInfoInputs.cache
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\obj\Release\netstandard2.1\Extensions.AssemblyInfo.cs
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\obj\Release\netstandard2.1\Extensions.csproj.CoreCompileInputs.cache
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\obj\Release\netstandard2.1\Extensions.dll
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\obj\Release\netstandard2.1\Extensions.pdb
+C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\obj\Release\netstandard2.1\Extensions.csproj.AssemblyReference.cache

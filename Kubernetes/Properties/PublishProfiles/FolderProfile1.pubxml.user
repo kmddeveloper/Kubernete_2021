@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <History>True|2021-07-24T21:17:01.1769707Z;False|2021-07-24T14:16:44.7439673-07:00;True|2021-07-24T14:13:30.7774430-07:00;True|2021-07-24T13:44:48.1708845-07:00;False|2021-07-24T13:27:26.5418515-07:00;</History>
+    <_PublishTargetUrl>E:\MyStuffs\KuberneteSite</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>
