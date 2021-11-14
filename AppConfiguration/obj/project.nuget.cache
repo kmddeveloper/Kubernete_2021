@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Wep2X2rh6xXlxmHUTVYshd7sRuPDBrTLoBi2z7zZh0p9zjBSDDjqkV2fbLcZqUIRYH0UD5rsBLIYlp5MkmKUg==",
+  "dgSpecHash": "x10ndn+Nb23xtGxhfWvJxBsxysAzfao4u5dopZn+3xd5LOeuyd2htSCJS6y9DKXawIU4EzAabCp9OKLAfztdhA==",
   "success": true,
-  "projectFilePath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
+  "projectFilePath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.5\\microsoft.extensions.configuration.3.1.5.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.5\\microsoft.extensions.configuration.abstractions.3.1.5.nupkg.sha512",

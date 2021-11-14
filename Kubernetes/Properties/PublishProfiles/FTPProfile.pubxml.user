@@ -6,16 +6,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgUJBhUMWiEWygwrbqBjxLAAAAAACAAAAAAAQZgAAAAEAACAAAACd4TygWF4sevtilje+gRYk83YHfNsulaGYUNtefMa4hAAAAAAOgAAAAAIAACAAAABHR+RCyLXTgRp5DDL5ti7xjKrsT5ZU9EjawusvjqL36iAAAAAiY1GbvAnMT/fg83P022r2YIhu22QsE320h+mF6pPI/0AAAABezMIaon0jB3I8PPyr3Hfjtm/7VbZDr9FB3qkDbI7REwO11LVZealui8LIdEiDUoMtZuCuNZfAElAHddAvp4/x</EncryptedPassword>
-    <_PublishTargetUrl>ftp://ftp.site4now.net/api</_PublishTargetUrl>
-    <History>True|2021-09-14T00:38:40.7537413Z;False|2021-09-13T17:38:18.8568059-07:00;True|2021-09-13T09:15:58.7458249-07:00;True|2021-08-27T13:41:28.0369888-07:00;False|2021-08-27T13:40:48.5149494-07:00;True|2021-08-27T13:04:03.1490051-07:00;False|2021-08-27T13:03:37.3993672-07:00;True|2021-08-27T11:39:19.3374284-07:00;False|2021-08-27T11:38:59.8385125-07:00;True|2021-08-27T11:36:36.2167679-07:00;False|2021-08-27T11:36:16.1679268-07:00;True|2021-08-27T11:01:17.5973979-07:00;False|2021-08-27T11:00:34.5316173-07:00;True|2021-08-27T10:49:32.9910172-07:00;False|2021-08-27T10:49:14.2729016-07:00;True|2021-08-27T10:46:28.7321407-07:00;False|2021-08-27T10:46:08.3517175-07:00;True|2021-08-27T10:29:14.5095388-07:00;False|2021-08-27T10:28:55.1671937-07:00;True|2021-08-26T23:53:51.2344018-07:00;True|2021-08-26T23:17:49.8686941-07:00;False|2021-08-26T23:17:23.4893705-07:00;True|2021-08-26T23:02:29.4884154-07:00;False|2021-08-26T23:01:59.6188578-07:00;True|2021-08-26T22:53:31.9488841-07:00;True|2021-08-26T18:09:32.0066235-07:00;False|2021-08-26T18:09:12.9051338-07:00;True|2021-08-26T17:59:15.6344442-07:00;False|2021-08-26T17:58:54.1073446-07:00;True|2021-08-26T17:40:38.9786037-07:00;False|2021-08-26T17:40:11.8068104-07:00;True|2021-08-26T15:51:02.3234511-07:00;False|2021-08-26T15:50:43.6257970-07:00;True|2021-08-26T15:38:34.3068475-07:00;False|2021-08-26T15:38:14.1330688-07:00;True|2021-08-26T15:30:54.9489568-07:00;False|2021-08-26T15:30:31.9471763-07:00;True|2021-08-26T15:27:23.0285575-07:00;False|2021-08-26T15:27:03.1818655-07:00;True|2021-08-26T15:23:48.8723595-07:00;False|2021-08-26T15:22:51.3220572-07:00;True|2021-08-26T15:15:01.9174572-07:00;False|2021-08-26T15:14:43.6767355-07:00;True|2021-08-26T15:00:56.0135885-07:00;True|2021-08-23T22:14:59.9039171-07:00;True|2021-08-18T16:11:15.5565432-07:00;True|2021-08-18T14:06:18.8229041-07:00;False|2021-08-18T14:05:48.5737223-07:00;True|2021-08-18T12:27:20.0326926-07:00;True|2021-08-16T16:28:12.7497892-07:00;False|2021-08-16T16:27:49.0297540-07:00;True|2021-08-11T16:25:47.8355123-07:00;True|2021-08-10T12:14:05.6377578-07:00;False|2021-08-10T12:13:46.4358170-07:00;True|2021-08-10T11:56:51.8942870-07:00;False|2021-08-10T11:56:31.1605516-07:00;True|2021-08-10T09:53:57.3199857-07:00;False|2021-08-10T09:53:29.5003610-07:00;True|2021-08-07T10:30:55.2534614-07:00;False|2021-08-07T10:30:35.5199009-07:00;True|2021-08-07T10:29:00.2129285-07:00;False|2021-08-07T10:28:36.3575767-07:00;False|2021-08-07T10:28:18.2592894-07:00;False|2021-08-07T10:28:09.8074297-07:00;False|2021-08-07T10:26:10.4915969-07:00;False|2021-08-07T10:24:28.1555050-07:00;True|2021-08-07T10:17:22.1585395-07:00;False|2021-08-07T10:17:01.0574421-07:00;True|2021-08-07T10:14:17.2698041-07:00;False|2021-08-07T10:13:53.3832729-07:00;True|2021-08-07T10:09:12.5231240-07:00;False|2021-08-07T10:08:22.9526307-07:00;True|2021-08-07T09:54:16.8411356-07:00;False|2021-08-07T09:53:48.2890863-07:00;False|2021-08-07T09:53:13.8276653-07:00;False|2021-08-07T09:51:24.4891220-07:00;False|2021-08-07T09:50:32.8291699-07:00;False|2021-08-07T09:48:19.5935162-07:00;True|2021-08-03T18:39:54.2884811-07:00;False|2021-08-03T18:39:34.9311831-07:00;True|2021-08-03T18:31:31.7009597-07:00;False|2021-08-03T18:31:09.9470848-07:00;True|2021-07-30T17:06:48.6102634-07:00;True|2021-07-30T16:38:29.5641508-07:00;False|2021-07-30T16:38:03.6083761-07:00;True|2021-07-27T09:58:36.4652048-07:00;False|2021-07-27T09:58:07.8783364-07:00;True|2021-07-27T09:54:18.0654749-07:00;False|2021-07-27T09:52:25.7589700-07:00;True|2021-07-27T09:45:02.2225557-07:00;True|2021-07-12T16:54:08.8432399-07:00;False|2021-07-12T16:53:23.9312365-07:00;True|2021-07-12T14:44:34.7480672-07:00;False|2021-07-12T14:38:09.1677531-07:00;True|2021-07-10T23:01:22.0132189-07:00;False|2021-07-10T23:00:22.6318405-07:00;False|2021-07-10T22:57:41.8573333-07:00;False|2021-07-10T22:56:52.7335914-07:00;True|2021-07-10T20:26:44.9561235-07:00;True|2021-07-08T12:48:32.4341881-07:00;False|2021-07-08T12:46:18.2625756-07:00;False|2021-07-08T12:43:39.9455065-07:00;True|2021-06-10T18:06:48.2213978-07:00;False|2021-06-10T18:04:24.8109892-07:00;False|2021-06-10T18:00:32.9180948-07:00;True|2021-06-09T16:27:27.4772181-07:00;False|2021-06-09T16:26:34.5630619-07:00;False|2021-06-09T16:20:21.6089194-07:00;False|2021-06-09T15:38:02.8125426-07:00;False|2021-06-09T15:30:39.8555251-07:00;</History>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxZ0snm1A2UKSsyu9xj6ocAAAAAACAAAAAAAQZgAAAAEAACAAAADyx50pgWnBMMg7IR7ICXJdSa44RktrONo5fnZJgGFppQAAAAAOgAAAAAIAACAAAACk3yyiHrpyBB026pTLR5A5DpL7Beh5A1oYPbj+XDKohyAAAADFYKyJuTNHcB/f0qICqWszPgyje9rgC6qtzbALVb5Vr0AAAABz7yq/56dhh2uGYmOXT3N6VGQHxgEnJc++i+pnsc2HCOJuoNMALWlnrQ68076nPRbaew/zh3TMIMmI6NFaVKzk</EncryptedPassword>
+    <_PublishTargetUrl>ftp://WIN5064.site4now.net/api</_PublishTargetUrl>
+    <History>True|2021-11-12T16:13:34.9885605Z;False|2021-11-12T08:11:08.9074199-08:00;False|2021-11-12T08:10:01.8724703-08:00;True|2021-10-29T21:32:14.4564255-07:00;True|2021-10-29T20:20:48.6274982-07:00;False|2021-10-29T20:18:59.6037824-07:00;False|2021-10-29T20:16:42.3472719-07:00;True|2021-10-22T18:20:43.2816831-07:00;False|2021-10-22T18:18:16.4540375-07:00;False|2021-10-22T14:05:25.0672886-07:00;False|2021-10-22T14:01:17.3846726-07:00;False|2021-10-22T14:00:52.4983976-07:00;False|2021-10-22T13:59:11.5691901-07:00;False|2021-10-22T13:56:06.5675226-07:00;False|2021-10-22T13:54:38.7224303-07:00;False|2021-10-22T13:51:19.7707855-07:00;False|2021-10-22T13:50:26.9455635-07:00;False|2021-10-22T13:50:09.6566312-07:00;False|2021-10-22T13:49:41.4074647-07:00;False|2021-10-22T13:28:11.0194305-07:00;False|2021-10-22T12:59:49.7564375-07:00;False|2021-10-22T11:04:52.5842658-07:00;False|2021-10-22T11:03:47.7052955-07:00;False|2021-10-22T11:02:14.4408356-07:00;False|2021-10-22T11:01:34.7071779-07:00;False|2021-10-22T10:57:43.6499229-07:00;False|2021-10-22T10:57:23.8918049-07:00;False|2021-10-22T10:57:12.2379206-07:00;False|2021-10-22T10:56:59.3588793-07:00;False|2021-10-22T10:56:51.1130277-07:00;False|2021-10-22T10:56:43.4480574-07:00;False|2021-10-22T10:56:34.8659316-07:00;True|2021-10-11T23:30:31.7003070-07:00;True|2021-10-11T22:46:13.3767895-07:00;True|2021-10-10T13:04:25.8433434-07:00;False|2021-10-10T13:04:02.3378667-07:00;True|2021-10-10T12:59:39.3250885-07:00;True|2021-10-10T10:21:20.0779187-07:00;False|2021-10-10T10:20:58.5124785-07:00;True|2021-10-10T09:01:05.3622363-07:00;False|2021-10-10T09:00:42.6988275-07:00;True|2021-10-09T17:32:37.1249969-07:00;True|2021-09-13T17:38:40.7537413-07:00;False|2021-09-13T17:38:18.8568059-07:00;True|2021-09-13T09:15:58.7458249-07:00;True|2021-08-27T13:41:28.0369888-07:00;False|2021-08-27T13:40:48.5149494-07:00;True|2021-08-27T13:04:03.1490051-07:00;False|2021-08-27T13:03:37.3993672-07:00;True|2021-08-27T11:39:19.3374284-07:00;False|2021-08-27T11:38:59.8385125-07:00;True|2021-08-27T11:36:36.2167679-07:00;False|2021-08-27T11:36:16.1679268-07:00;True|2021-08-27T11:01:17.5973979-07:00;False|2021-08-27T11:00:34.5316173-07:00;True|2021-08-27T10:49:32.9910172-07:00;False|2021-08-27T10:49:14.2729016-07:00;True|2021-08-27T10:46:28.7321407-07:00;False|2021-08-27T10:46:08.3517175-07:00;True|2021-08-27T10:29:14.5095388-07:00;False|2021-08-27T10:28:55.1671937-07:00;True|2021-08-26T23:53:51.2344018-07:00;True|2021-08-26T23:17:49.8686941-07:00;False|2021-08-26T23:17:23.4893705-07:00;True|2021-08-26T23:02:29.4884154-07:00;False|2021-08-26T23:01:59.6188578-07:00;True|2021-08-26T22:53:31.9488841-07:00;True|2021-08-26T18:09:32.0066235-07:00;False|2021-08-26T18:09:12.9051338-07:00;True|2021-08-26T17:59:15.6344442-07:00;False|2021-08-26T17:58:54.1073446-07:00;True|2021-08-26T17:40:38.9786037-07:00;False|2021-08-26T17:40:11.8068104-07:00;True|2021-08-26T15:51:02.3234511-07:00;False|2021-08-26T15:50:43.6257970-07:00;True|2021-08-26T15:38:34.3068475-07:00;False|2021-08-26T15:38:14.1330688-07:00;True|2021-08-26T15:30:54.9489568-07:00;False|2021-08-26T15:30:31.9471763-07:00;True|2021-08-26T15:27:23.0285575-07:00;False|2021-08-26T15:27:03.1818655-07:00;True|2021-08-26T15:23:48.8723595-07:00;False|2021-08-26T15:22:51.3220572-07:00;True|2021-08-26T15:15:01.9174572-07:00;False|2021-08-26T15:14:43.6767355-07:00;True|2021-08-26T15:00:56.0135885-07:00;True|2021-08-23T22:14:59.9039171-07:00;True|2021-08-18T16:11:15.5565432-07:00;True|2021-08-18T14:06:18.8229041-07:00;False|2021-08-18T14:05:48.5737223-07:00;True|2021-08-18T12:27:20.0326926-07:00;True|2021-08-16T16:28:12.7497892-07:00;False|2021-08-16T16:27:49.0297540-07:00;True|2021-08-11T16:25:47.8355123-07:00;True|2021-08-10T12:14:05.6377578-07:00;False|2021-08-10T12:13:46.4358170-07:00;True|2021-08-10T11:56:51.8942870-07:00;False|2021-08-10T11:56:31.1605516-07:00;True|2021-08-10T09:53:57.3199857-07:00;False|2021-08-10T09:53:29.5003610-07:00;True|2021-08-07T10:30:55.2534614-07:00;False|2021-08-07T10:30:35.5199009-07:00;True|2021-08-07T10:29:00.2129285-07:00;False|2021-08-07T10:28:36.3575767-07:00;False|2021-08-07T10:28:18.2592894-07:00;False|2021-08-07T10:28:09.8074297-07:00;False|2021-08-07T10:26:10.4915969-07:00;False|2021-08-07T10:24:28.1555050-07:00;True|2021-08-07T10:17:22.1585395-07:00;False|2021-08-07T10:17:01.0574421-07:00;True|2021-08-07T10:14:17.2698041-07:00;False|2021-08-07T10:13:53.3832729-07:00;True|2021-08-07T10:09:12.5231240-07:00;False|2021-08-07T10:08:22.9526307-07:00;True|2021-08-07T09:54:16.8411356-07:00;False|2021-08-07T09:53:48.2890863-07:00;False|2021-08-07T09:53:13.8276653-07:00;False|2021-08-07T09:51:24.4891220-07:00;False|2021-08-07T09:50:32.8291699-07:00;False|2021-08-07T09:48:19.5935162-07:00;True|2021-08-03T18:39:54.2884811-07:00;False|2021-08-03T18:39:34.9311831-07:00;True|2021-08-03T18:31:31.7009597-07:00;False|2021-08-03T18:31:09.9470848-07:00;True|2021-07-30T17:06:48.6102634-07:00;True|2021-07-30T16:38:29.5641508-07:00;False|2021-07-30T16:38:03.6083761-07:00;True|2021-07-27T09:58:36.4652048-07:00;False|2021-07-27T09:58:07.8783364-07:00;True|2021-07-27T09:54:18.0654749-07:00;False|2021-07-27T09:52:25.7589700-07:00;True|2021-07-27T09:45:02.2225557-07:00;True|2021-07-12T16:54:08.8432399-07:00;False|2021-07-12T16:53:23.9312365-07:00;True|2021-07-12T14:44:34.7480672-07:00;False|2021-07-12T14:38:09.1677531-07:00;True|2021-07-10T23:01:22.0132189-07:00;False|2021-07-10T23:00:22.6318405-07:00;False|2021-07-10T22:57:41.8573333-07:00;False|2021-07-10T22:56:52.7335914-07:00;True|2021-07-10T20:26:44.9561235-07:00;True|2021-07-08T12:48:32.4341881-07:00;False|2021-07-08T12:46:18.2625756-07:00;False|2021-07-08T12:43:39.9455065-07:00;True|2021-06-10T18:06:48.2213978-07:00;False|2021-06-10T18:04:24.8109892-07:00;False|2021-06-10T18:00:32.9180948-07:00;True|2021-06-09T16:27:27.4772181-07:00;False|2021-06-09T16:26:34.5630619-07:00;False|2021-06-09T16:20:21.6089194-07:00;False|2021-06-09T15:38:02.8125426-07:00;False|2021-06-09T15:30:39.8555251-07:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="AppConfiguration.dll">
-      <publishTime>08/18/2021 10:09:14</publishTime>
+      <publishTime>11/11/2021 23:14:06</publishTime>
     </File>
     <File Include="AppConfiguration.pdb">
-      <publishTime>08/18/2021 10:09:14</publishTime>
+      <publishTime>11/11/2021 23:14:06</publishTime>
     </File>
     <File Include="appsettings.Development.json">
       <publishTime>06/16/2020 09:16:24</publishTime>
@@ -36,40 +36,40 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/05/2019 01:50:28</publishTime>
     </File>
     <File Include="DataReaderMapper.dll">
-      <publishTime>08/23/2021 22:14:33</publishTime>
+      <publishTime>11/11/2021 23:14:07</publishTime>
     </File>
     <File Include="DataReaderMapper.pdb">
-      <publishTime>08/23/2021 22:14:33</publishTime>
+      <publishTime>11/11/2021 23:14:07</publishTime>
     </File>
     <File Include="EFData.dll">
-      <publishTime>09/13/2021 17:37:47</publishTime>
+      <publishTime>11/11/2021 23:14:07</publishTime>
     </File>
     <File Include="EFData.pdb">
-      <publishTime>09/13/2021 17:37:47</publishTime>
+      <publishTime>11/11/2021 23:14:07</publishTime>
     </File>
     <File Include="EFModel.dll">
-      <publishTime>09/13/2021 17:37:46</publishTime>
+      <publishTime>11/11/2021 23:14:06</publishTime>
     </File>
     <File Include="EFModel.pdb">
-      <publishTime>09/13/2021 17:37:46</publishTime>
+      <publishTime>11/11/2021 23:14:06</publishTime>
     </File>
     <File Include="Elasticsearch.Net.dll">
       <publishTime>06/27/2019 14:05:42</publishTime>
     </File>
     <File Include="Extensions.dll">
-      <publishTime>08/18/2021 10:09:14</publishTime>
+      <publishTime>11/11/2021 23:14:06</publishTime>
     </File>
     <File Include="Extensions.pdb">
-      <publishTime>08/18/2021 10:09:14</publishTime>
+      <publishTime>11/11/2021 23:14:06</publishTime>
     </File>
     <File Include="FastMember.dll">
       <publishTime>05/24/2019 13:38:00</publishTime>
     </File>
     <File Include="GlobalConstants.dll">
-      <publishTime>08/18/2021 10:09:14</publishTime>
+      <publishTime>11/11/2021 23:14:06</publishTime>
     </File>
     <File Include="GlobalConstants.pdb">
-      <publishTime>08/18/2021 10:09:14</publishTime>
+      <publishTime>11/11/2021 23:14:06</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.Facebook.dll">
       <publishTime>07/15/2021 11:10:54</publishTime>
@@ -84,16 +84,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/15/2018 21:01:34</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
-      <publishTime>05/13/2021 18:31:38</publishTime>
+      <publishTime>09/22/2021 08:16:10</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.dll">
-      <publishTime>05/13/2021 18:31:54</publishTime>
+      <publishTime>09/22/2021 08:16:20</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
-      <publishTime>05/13/2021 18:31:58</publishTime>
+      <publishTime>09/22/2021 08:16:28</publishTime>
     </File>
     <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
-      <publishTime>05/13/2021 11:32:26</publishTime>
+      <publishTime>09/22/2021 08:16:30</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
       <publishTime>05/20/2020 23:55:56</publishTime>
@@ -108,7 +108,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/20/2020 23:56:12</publishTime>
     </File>
     <File Include="Microsoft.Extensions.DependencyInjection.dll">
-      <publishTime>11/26/2020 01:59:12</publishTime>
+      <publishTime>06/15/2021 12:12:46</publishTime>
     </File>
     <File Include="Microsoft.Extensions.DependencyModel.dll">
       <publishTime>05/15/2018 21:01:34</publishTime>
@@ -156,10 +156,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/17/2021 20:03:36</publishTime>
     </File>
     <File Include="Repository.dll">
-      <publishTime>09/13/2021 17:37:48</publishTime>
+      <publishTime>11/11/2021 23:14:09</publishTime>
     </File>
     <File Include="Repository.pdb">
-      <publishTime>09/13/2021 17:37:48</publishTime>
+      <publishTime>11/11/2021 23:14:09</publishTime>
     </File>
     <File Include="runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll">
       <publishTime>01/17/2020 18:41:36</publishTime>
@@ -234,10 +234,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/20/2017 16:12:50</publishTime>
     </File>
     <File Include="Services.dll">
-      <publishTime>09/13/2021 17:37:49</publishTime>
+      <publishTime>11/11/2021 23:14:10</publishTime>
     </File>
     <File Include="Services.pdb">
-      <publishTime>09/13/2021 17:37:49</publishTime>
+      <publishTime>11/11/2021 23:14:10</publishTime>
     </File>
     <File Include="Swashbuckle.AspNetCore.Swagger.dll">
       <publishTime>04/20/2021 10:26:08</publishTime>
@@ -273,28 +273,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/28/2018 13:01:00</publishTime>
     </File>
     <File Include="TransferObjects.dll">
-      <publishTime>09/13/2021 09:15:35</publishTime>
+      <publishTime>11/11/2021 23:14:06</publishTime>
     </File>
     <File Include="TransferObjects.pdb">
-      <publishTime>09/13/2021 09:15:35</publishTime>
+      <publishTime>11/11/2021 23:14:06</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>09/13/2021 17:38:30</publishTime>
+      <publishTime>11/12/2021 08:06:41</publishTime>
     </File>
     <File Include="Web.deps.json">
-      <publishTime>09/13/2021 17:38:29</publishTime>
+      <publishTime>11/12/2021 08:06:41</publishTime>
     </File>
     <File Include="Web.dll">
-      <publishTime>09/13/2021 17:38:29</publishTime>
+      <publishTime>11/12/2021 08:06:28</publishTime>
     </File>
     <File Include="Web.exe">
-      <publishTime>09/13/2021 17:38:29</publishTime>
+      <publishTime>11/12/2021 08:06:28</publishTime>
     </File>
     <File Include="Web.pdb">
-      <publishTime>09/13/2021 17:38:29</publishTime>
+      <publishTime>11/12/2021 08:06:28</publishTime>
     </File>
     <File Include="Web.runtimeconfig.json">
-      <publishTime>08/18/2021 10:09:17</publishTime>
+      <publishTime>11/11/2021 23:14:14</publishTime>
     </File>
     <File Include="wwwroot/test.html">
       <publishTime>05/27/2021 09:53:23</publishTime>

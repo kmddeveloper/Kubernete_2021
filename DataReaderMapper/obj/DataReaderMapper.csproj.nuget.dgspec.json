@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj": {}
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj": {}
   },
   "projects": {
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
         "projectName": "AppConfiguration",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -66,18 +66,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj",
         "projectName": "DataReaderMapper",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -100,8 +100,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
               }
             }
           }
@@ -144,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

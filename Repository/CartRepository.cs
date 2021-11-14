@@ -31,6 +31,7 @@ namespace Kubernetes.Repository
                     CommandText = "appV1_addItemToCart"
                 };
                 sqlCmd.Parameters.AddWithValue("@product_id", cartFields.ProductId);
+                sqlCmd.Parameters.AddWithValue("@product_item_id", cartFields.ProductItemId);
                 sqlCmd.Parameters.AddWithValue("@quantity", cartFields.Quantity);
                 sqlCmd.Parameters.AddWithValue("@user_id", cartFields.UserId);
 
@@ -54,6 +55,53 @@ namespace Kubernetes.Repository
                     CommandText = "appV1_getCartItems"
                 };
                 sqlCmd.Parameters.AddWithValue("@user_id", userId);              
+
+                return await _dataReaderMapper.MapToListAsync<ItemInCart>(sqlCmd, map);
+            }
+            catch (Exception e)
+            {
+                // _logger.LogError("UserRepository:GetUserAUthoizedOptionsAsync:{0}", e.Message);
+            }
+            return null;
+        }
+
+
+        public async Task<List<ItemInCart>> UpdateCartAsync(string userId, int cartId, int quantity)
+        {
+            try
+            {
+                var map = _maps.ItemInCartMap;
+                var sqlCmd = new SqlCommand
+                {
+                    CommandType = CommandType.StoredProcedure,
+                    CommandText = "appV1_updateCart"
+                };
+                sqlCmd.Parameters.AddWithValue("@userId", userId);
+                sqlCmd.Parameters.AddWithValue("@cartId", cartId);
+                sqlCmd.Parameters.AddWithValue("@quantity", quantity);
+
+                return await _dataReaderMapper.MapToListAsync<ItemInCart>(sqlCmd, map);
+            }
+            catch (Exception e)
+            {
+                // _logger.LogError("UserRepository:GetUserAUthoizedOptionsAsync:{0}", e.Message);
+            }
+            return null;
+        }
+
+        public async Task<List<ItemInCart>> DeleteCartAsync(string userId, int cartId)
+        {
+            try
+            {
+                var map = _maps.ItemInCartMap;
+                var sqlCmd = new SqlCommand
+                {
+                    CommandType = CommandType.StoredProcedure,
+                    CommandText = "appV1_deleteCart"
+                };
+                sqlCmd.Parameters.AddWithValue("@userId", userId);
+                sqlCmd.Parameters.AddWithValue("@cartId", cartId);
+                
 
                 return await _dataReaderMapper.MapToListAsync<ItemInCart>(sqlCmd, map);
             }

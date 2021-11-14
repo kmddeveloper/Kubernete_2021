@@ -7200,11 +7200,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj",
+      "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj",
       "projectName": "EFData",
-      "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj",
+      "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj",
       "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\obj\\",
+      "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -7227,11 +7227,11 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
-              "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
+            "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
+              "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
             },
-            "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj": {
-              "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj"
+            "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj": {
+              "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj"
             }
           }
         }
@@ -7270,7 +7270,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

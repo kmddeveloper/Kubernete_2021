@@ -26,7 +26,6 @@ namespace xUnitTest
         public int Name;
         public int ThreadNum;
     }
-
     public class UserControlTest: IClassFixture<WebApplicationFactory<Startup>>
     {
 
@@ -44,7 +43,8 @@ namespace xUnitTest
         public static IEnumerable<object[]> UserData =>                   
             new List<object[]>
             {
-                new object[] { 1, "Kevin" }
+                new object[] { 1, "Kevin", "kmd888@gmail.com", "12345678", "Young" },
+                new object[] { 1, "Kevin", "kmd888@gmail.com", "12345678", "young2" },
             };
               
         
@@ -94,10 +94,10 @@ namespace xUnitTest
 
         [Theory]
         [MemberData(nameof(UserData))]   
-        public async Task GetUserByIdTest(int Id, string firstName)
+        public async Task GetUserByIdTest(int Id, string firstName, string email, string password,  string lastname)
         {
 
-            var input = new User { Id = Id };
+            var input = new User { Id = Id, Email=email, First_Name=firstName, Last_Name=lastname, Password=password };
             var payload = JsonConvert.SerializeObject(input);
 
             HttpContent content = new StringContent(payload, Encoding.UTF8, "application/json");

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Kubernetes\\Web.csproj": {}
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Kubernetes\\Web.csproj": {}
   },
   "projects": {
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
         "projectName": "AppConfiguration",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -66,18 +66,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj",
         "projectName": "DataReaderMapper",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -100,8 +100,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
               }
             }
           }
@@ -144,18 +144,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj",
         "projectName": "EFData",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -178,11 +178,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj"
               }
             }
           }
@@ -221,18 +221,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj",
         "projectName": "EFModel",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -291,18 +291,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj",
         "projectName": "Extensions",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Extensions\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Extensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -351,18 +351,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\GlobalConstants\\GlobalConstants.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\GlobalConstants\\GlobalConstants.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\GlobalConstants\\GlobalConstants.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\GlobalConstants\\GlobalConstants.csproj",
         "projectName": "GlobalConstants",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\GlobalConstants\\GlobalConstants.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\GlobalConstants\\GlobalConstants.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\GlobalConstants\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\GlobalConstants\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -411,18 +411,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Kubernetes\\Web.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Kubernetes\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Kubernetes\\Web.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Kubernetes\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Kubernetes\\Web.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Kubernetes\\Web.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Kubernetes\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Kubernetes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -445,20 +445,20 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\GlobalConstants\\GlobalConstants.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\GlobalConstants\\GlobalConstants.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\GlobalConstants\\GlobalConstants.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\GlobalConstants\\GlobalConstants.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Services\\Services.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Services\\Services.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Services\\Services.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Services\\Services.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj"
               }
             }
           }
@@ -488,6 +488,20 @@
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -552,18 +566,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Repository\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -586,23 +600,23 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj"
               }
             }
           }
@@ -637,18 +651,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Services\\Services.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Services\\Services.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Services\\Services.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Services\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -671,20 +685,20 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFModel\\EFModel.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Extensions\\Extensions.csproj"
               },
-              "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj"
+              "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj": {
+                "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj"
               }
             }
           }
@@ -735,18 +749,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyStuffs\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj": {
+    "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj",
+        "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj",
         "projectName": "TransferObjects",
-        "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj",
+        "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\TransferObjects\\TransferObjects.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\TransferObjects\\obj\\",
+        "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\TransferObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -802,7 +816,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

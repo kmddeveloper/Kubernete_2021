@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Kubernetes", "Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Kubernetes", "Web.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("xUnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

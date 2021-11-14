@@ -95,6 +95,9 @@ namespace Web
             services.AddTransient<ICartRepository, CartRepository>();
             services.AddTransient<ICartService, CartService>();
             
+            //Add Microsoft.entityFrameworkcore.tools
+            //Add
+            //services.AddDbContext<AppDbContext>
             // services.AddDbContext<ProductContext>(options => options.UseSqlServer(Configuration["SQL:ConnectionString"]));
             // services.AddDbContext<UserContext>(options => options.UseSqlServer(Configuration["SQL:ConnectionString"]), ServiceLifetime.Transient);            
 

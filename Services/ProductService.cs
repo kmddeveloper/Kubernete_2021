@@ -30,11 +30,11 @@ namespace Kubernetes.Services
             if (string.IsNullOrEmpty(code))
                 throw new System.Exception("Invalid product code!");
 
-            return await _productRepository.GetProductByCodeAsync(code);
+            return  await _productRepository.GetProductByCodeAsync(code);
         }
 
 
-            public async Task<ProductEditItem> GetEditItemAsync(string code)
+        public async Task<ProductEditItem> GetEditItemAsync(string code)
         {
             if (string.IsNullOrEmpty(code))
                 throw new System.Exception("Invalid product code!");            
@@ -64,8 +64,6 @@ namespace Kubernetes.Services
                 CategoryList = categoryTask.Result,            
                 StatusList = statusTask.Result
             };
-
-
         }
 
 
@@ -79,17 +77,16 @@ namespace Kubernetes.Services
 
 
 
-        public async Task<List<ProductSpec>> GetProductSpecs(int productId)
+        public async Task<List<ProductSpec>> GetProductSpecsAsync(int productId)
         {
             if (productId <=0)
                 throw new Exception("Invalid product Id!");
 
             var productSpecRawContents =  await _productRepository.GetProductSpecAsync(productId);
-
-
+            
             if (productSpecRawContents != null && productSpecRawContents.Count > 0)
             {
-                var productSpecList = new List<ProductSpec>();
+                var productSpecList = new List<ProductSpec>(productSpecRawContents.Count);
                 int specId = 0;
 
                 ProductSpec prodSpec = null;
@@ -103,7 +100,7 @@ namespace Kubernetes.Services
                                 productSpecList.Add(prodSpec);
                             prodSpec = new ProductSpec{Title=productSpecRawContent.Title, Fields = new List<Field<string, string>>()};
                         }
-                        if (prodSpec != null)
+                        if (prodSpec != null && prodSpec.Fields!=null)
                         {
                             prodSpec.Fields.Add(new Field<string, string> { Key = productSpecRawContent.ContentName, Value = productSpecRawContent.ContentValue });
                         }
@@ -115,6 +112,56 @@ namespace Kubernetes.Services
 
         }
 
+
+        public async Task<ProductDetail> GetProductDetailAsync(string code)
+        {
+            if (string.IsNullOrEmpty(code))
+                throw new System.Exception("Invalid product code!");
+
+            var product =  await _productRepository.GetProductByCodeAsync(code);
+
+            if (product != null && product.Id > 0)
+            {
+                var specs = GetProductSpecsAsync(product.Id);
+                var images = _productRepository.GetProductImagesAsync(product.Id, 0);
+                var features = _productRepository.GetProductFeaturesAsync(product.Id);
+                var attrubutes = _productRepository.GetProductAttributesAsync(product.Id);
+                await Task.WhenAll(specs, images, features, attrubutes);
+
+                return new ProductDetail
+                {
+                    Features = features.Result,
+                    Item = product,
+                    ItemImages = images.Result,
+                    Specs = specs.Result,
+                    Attributes = attrubutes.Result
+                };
+            }
+            return null; 
+
+        }
+
+
+        public async Task<int> GetProductItemIdByColorSize(int productId, int sizeId, int colorId)
+        {
+            if (productId > 0 && sizeId > 0 && colorId > 0)
+                return await _productRepository.GetProductItemIdByColorSizeAsync(productId, sizeId, colorId);
+            return 0;
+        }       
+
+        public async Task<List<ProductColor>> GetProductColorsAsync(int productId, int sizeId=0)
+        {
+            if (productId > 0)
+                return await _productRepository.GetProductColorsAsync(productId, sizeId);
+            return null;
+        }
+
+        public async Task<List<ProductSize>> GetProductSizesAsync(int productId, int colorId = 0)
+        {
+            if (productId > 0)
+                return await _productRepository.GetProductSizesAsync(productId, colorId);
+            return null;
+        }
 
         //public IQueryable<Product> GetProducts(int page=1, int pageSize=10, int categoryId=1)
         //{

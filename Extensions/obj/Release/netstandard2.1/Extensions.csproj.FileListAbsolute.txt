@@ -7,3 +7,13 @@ C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\obj\Release\netstandar
 C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\obj\Release\netstandard2.1\Extensions.dll
 C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\obj\Release\netstandard2.1\Extensions.pdb
 C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\Extensions\obj\Release\netstandard2.1\Extensions.csproj.AssemblyReference.cache
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\Extensions\bin\Release\netstandard2.1\Extensions.deps.json
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\Extensions\bin\Release\netstandard2.1\Extensions.dll
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\Extensions\bin\Release\netstandard2.1\Extensions.pdb
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\Extensions\obj\Release\netstandard2.1\Extensions.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\Extensions\obj\Release\netstandard2.1\Extensions.AssemblyInfoInputs.cache
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\Extensions\obj\Release\netstandard2.1\Extensions.AssemblyInfo.cs
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\Extensions\obj\Release\netstandard2.1\Extensions.csproj.CoreCompileInputs.cache
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\Extensions\obj\Release\netstandard2.1\Extensions.dll
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\Extensions\obj\Release\netstandard2.1\Extensions.pdb
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\Extensions\obj\Release\netstandard2.1\Extensions.csproj.AssemblyReference.cache

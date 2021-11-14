@@ -35,11 +35,28 @@ namespace Kubernetes.Services
         public async Task<ShoppingCart> GetCartItemsAsync(string userId)
         {
             var itemsInCart = await _cartRepository.GetCartItemsAsync(userId);
+            return ShoppingCart(itemsInCart);
+        }
 
+        public async Task<ShoppingCart> UpdateCartAsync(string userId, int cartId, int quantity)
+        {
+            var itemsInCart = await _cartRepository.UpdateCartAsync(userId, cartId, quantity);
+            return ShoppingCart(itemsInCart);
+        }
+
+        public async Task<ShoppingCart> DeleteCartAsync(string userId, int cartId)
+        {
+            var itemsInCart = await _cartRepository.DeleteCartAsync(userId, cartId);
+            return ShoppingCart(itemsInCart);
+        }
+
+        private ShoppingCart ShoppingCart(List<ItemInCart> itemsInCart)
+        {
             return new ShoppingCart
             {
                 ItemsInCart = itemsInCart,
-                Count = itemsInCart == null ? 0 : itemsInCart.Sum(x => x.Quantity)
+                Count = itemsInCart == null ? 0 : itemsInCart.Sum(x => x.Quantity),
+                Total = itemsInCart == null ? 0 : itemsInCart.Sum(x => x.Price * x.Quantity)
             };
         }
 

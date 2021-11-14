@@ -11,7 +11,8 @@ namespace Kubernetes.Services
 
         Task<ShoppingCart> AddItemToCartAsync(CartFields cartFields);
         Task<ShoppingCart> GetCartItemsAsync(string userId);
-
+        Task<ShoppingCart> UpdateCartAsync(string userId, int cartId, int quantity);
+        Task<ShoppingCart> DeleteCartAsync(string userId, int cartId);
         //Task<List<ItemInCart>> GetLocalCartItems(List<CartFields> cartItems);
 
         //Task<List<ItemInCart>> GetItemsInCartAsync(string idList, Dictionary<int, int> quantityLookUpCol = null);

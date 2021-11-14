@@ -16,6 +16,11 @@ namespace Kubernetes.Services
         Task UpdateProductItem(Product product);
         Task<Product> GetProductByCodeAsync(string code);
 
-        Task<List<ProductSpec>> GetProductSpecs(int productId);
+        Task<List<ProductSpec>> GetProductSpecsAsync(int productId);
+        Task<ProductDetail> GetProductDetailAsync(string code);
+        Task<int> GetProductItemIdByColorSize(int productId, int sizeId, int colorId);
+
+        Task<List<ProductSize>> GetProductSizesAsync(int productId, int colorId = 0);
+        Task<List<ProductColor>> GetProductColorsAsync(int productId, int sizeId = 0);
     }
 }

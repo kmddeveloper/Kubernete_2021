@@ -24,6 +24,16 @@ namespace Kubernetes.Repository
 
         Task<List<ProductSpecRaw>> GetProductSpecAsync(int productId);
 
+        Task<List<ProductFeature>> GetProductFeaturesAsync(int productId);
+
+        Task<List<ProductImage>> GetProductImagesAsync(int productId, int productItemId);
+
+        Task<List<ProductAttribute>> GetProductAttributesAsync(int productId);
+        Task<int> GetProductItemIdByColorSizeAsync(int productId, int sizeId, int colorId);
+
+        Task<List<ProductSize>> GetProductSizesAsync(int productId, int colorId = 0);
+        Task<List<ProductColor>> GetProductColorsAsync(int productId, int sizeId = 0);
+
 
     }
 }

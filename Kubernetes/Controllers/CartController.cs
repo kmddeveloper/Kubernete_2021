@@ -32,8 +32,27 @@ namespace Web.Controllers
         [HttpPost] 
         //Add item to cart
         public async Task<ApiResponse<ShoppingCart>> PostAsync([FromBody]CartFields cartFields)
-        {
+        {            
+
             var shoppingCart = await _cartService.AddItemToCartAsync(cartFields);
+            return ApiResult<ShoppingCart>(shoppingCart);
+        }
+
+
+        [HttpPut]
+        //Update cart quantities
+        public async Task<ApiResponse<ShoppingCart>> PutAsync([FromBody] CartUpdateFields cartUpdateFields)
+        {
+            var shoppingCart = await _cartService.UpdateCartAsync(cartUpdateFields.UserId, cartUpdateFields.CartId, cartUpdateFields.Quantity);
+            return ApiResult<ShoppingCart>(shoppingCart);
+        }
+
+
+        [HttpDelete]
+        //Update cart quantities
+        public async Task<ApiResponse<ShoppingCart>> DeleteAsync([FromBody] CartUpdateFields cartUpdateFields)
+        {
+            var shoppingCart = await _cartService.DeleteCartAsync(cartUpdateFields.UserId, cartUpdateFields.CartId);
             return ApiResult<ShoppingCart>(shoppingCart);
         }
     }

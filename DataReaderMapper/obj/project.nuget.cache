@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Q5wQHebfSdOgSu75T/0Vxe7sI/8Zln0oepOb6XXaWrBB0eeGlzDIU4+EcTf6YM63ZXuKzM9JoYESD2CWnlXMA==",
+  "dgSpecHash": "xx6VQ6pf35t+Y9+DnXV0m0+JnXayNZN8TeT3Uk7r7n2WS4d89nXhMQN8gowN97P44V3RVmJmvqKB/LiHv9bPwg==",
   "success": true,
-  "projectFilePath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj",
+  "projectFilePath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\DataReaderMapper\\DataReaderMapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kevin\\.nuget\\packages\\fastmember\\1.5.0\\fastmember.1.5.0.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

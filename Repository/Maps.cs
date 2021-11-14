@@ -78,12 +78,17 @@ namespace Kubernetes.Repository
                 var map = _dataReaderMapper.CreateMap()
                   .ForMember<ItemInCart, Int32, SourceDataField>(d => d.Id, s => s.GetFieldName("cart_id"))
                   .ForMember<ItemInCart, Int32, SourceDataField>(d => d.ProductId, s => s.GetFieldName("id"))
+                  .ForMember<ItemInCart, Int32, SourceDataField>(d => d.ProductItemId, s => s.GetFieldName("product_item_id"))                  
                   .ForMember<ItemInCart, String, SourceDataField>(d => d.Name, s => s.GetFieldName("name"))
                   .ForMember<ItemInCart, String, SourceDataField>(d => d.Description, s => s.GetFieldName("description"))
                   .ForMember<ItemInCart, String, SourceDataField>(d => d.Code, s => s.GetFieldName("code"))
+                  .ForMember<ItemInCart, String, SourceDataField>(d => d.Color, s => s.GetFieldName("color"))
                   .ForMember<ItemInCart, Decimal, SourceDataField>(d => d.Price, s => s.GetFieldName("price"))
+                  .ForMember<ItemInCart, Double, SourceDataField>(d => d.MenSize, s => s.GetFieldName("size"))
+                  .ForMember<ItemInCart, Double, SourceDataField>(d => d.WomenSize, s => s.GetFieldName("women_size"))
                   .ForMember<ItemInCart, String, SourceDataField>(d => d.ImageUrl, s => s.GetFieldName("image_url"))
                   .ForMember<ItemInCart, Int32, SourceDataField>(d => d.Quantity, s => s.GetFieldName("quantity"))
+                  .ForMember<ItemInCart, Int32, SourceDataField>(d => d.AvailableQuantity, s => s.GetFieldName("avaiable_quantity"))
                   ;
                 return map;
             }
@@ -117,15 +122,81 @@ namespace Kubernetes.Repository
 
 
 
+        public Dictionary<string, MapRule> ProductFeatures
+        {
+            get
+            {
+                var map = _dataReaderMapper.CreateMap()
+                  .ForMember<ProductFeature, Int32, SourceDataField>(d => d.ProductId, s => s.GetFieldName("product_id"))
+                  .ForMember<ProductFeature, String, SourceDataField>(d => d.Feature, s => s.GetFieldName("feature"))
+                            
+                  ;
+                return map;
+            }
+        }
+
         public Dictionary<string, MapRule> ProductSpec
         {
             get
             {
                 var map = _dataReaderMapper.CreateMap()
-                  .ForMember<ProductSpecRaw, Int32, SourceDataField>(d => d.SpecId, s => s.GetFieldName("id"))
+                  .ForMember<ProductSpecRaw, Int32, SourceDataField>(d => d.SpecId, s => s.GetFieldName("product_spec_id"))
                   .ForMember<ProductSpecRaw, String, SourceDataField>(d => d.Title, s => s.GetFieldName("header"))
                   .ForMember<ProductSpecRaw, String, SourceDataField>(d => d.ContentName, s => s.GetFieldName("name"))
-                  .ForMember<ProductSpecRaw, String, SourceDataField>(d => d.ContentValue, s => s.GetFieldName("value"))                
+                  .ForMember<ProductSpecRaw, String, SourceDataField>(d => d.ContentValue, s => s.GetFieldName("value"))
+                  ;
+                return map;
+            }
+        }
+
+        public Dictionary<string, MapRule> ProductImages
+        {
+            get
+            {
+                var map = _dataReaderMapper.CreateMap()
+                  .ForMember<ProductImage, Int32, SourceDataField>(d => d.ProductId, s => s.GetFieldName("product_id"))
+                  .ForMember<ProductImage, Int32, SourceDataField>(d => d.ProductItemId, s => s.GetFieldName("product_item_id"))
+                  .ForMember<ProductImage, String, SourceDataField>(d => d.ImageUrl, s => s.GetFieldName("image_url"))
+                  .ForMember<ProductImage, String, SourceDataField>(d => d.MediaType, s => s.GetFieldName("media_type"))
+                  ;
+                return map;
+            }
+        }
+
+        public Dictionary<string, MapRule> ProductAttributes
+        {
+            get
+            {
+                var map = _dataReaderMapper.CreateMap()
+                  .ForMember<ProductAttribute, Int32, SourceDataField>(d => d.ProductId, s => s.GetFieldName("product_id"))
+                  .ForMember<ProductAttribute, String, SourceDataField>(d => d.Attribute, s => s.GetFieldName("attribute"))
+
+                  ;
+                return map;
+            }
+        }
+
+        public Dictionary<string, MapRule> ProductSizes
+        {
+            get
+            {
+                var map = _dataReaderMapper.CreateMap()
+                  .ForMember<ProductSize, Int32, SourceDataField>(d => d.Id, s => s.GetFieldName("size_id"))
+                  .ForMember<ProductSize, decimal, SourceDataField>(d => d.MenSize, s => s.GetFieldName("size"))
+                  .ForMember<ProductSize, decimal, SourceDataField>(d => d.WomenSize, s => s.GetFieldName("wsize"))
+                  ;
+                return map;
+            }
+        }
+
+        public Dictionary<string, MapRule> ProductColors
+        {
+            get
+            {
+                var map = _dataReaderMapper.CreateMap()
+                  .ForMember<ProductColor, Int32, SourceDataField>(d => d.Id, s => s.GetFieldName("color_id"))
+                  .ForMember<ProductColor, string, SourceDataField>(d => d.Color, s => s.GetFieldName("name"))
+                 
                   ;
                 return map;
             }

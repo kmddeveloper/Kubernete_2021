@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NLPaCemxiuvoIBCSzvkzcBFNBQ1RG2HPhlBt+/FY9jJVq1sCRoQlrtAEqop3QW68JtPLxEpnInZD1rHSuL+2lg==",
+  "dgSpecHash": "Jpyr5riZe8DIt0P8oKmII4q3r5ZTEdOoR8F+TCUGqpoAaAlG2dhwyscAcxx8AqONJZn71ej7LY1I0pKbKSCACQ==",
   "success": true,
-  "projectFilePath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj",
+  "projectFilePath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kevin\\.nuget\\packages\\fastmember\\1.5.0\\fastmember.1.5.0.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

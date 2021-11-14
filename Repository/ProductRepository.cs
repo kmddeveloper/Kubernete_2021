@@ -211,10 +211,142 @@ namespace Kubernetes.Repository
                 var sqlCmd = new SqlCommand
                 {
                     CommandType = CommandType.StoredProcedure,
-                    CommandText = "appV1_getProductStatus"
+                    CommandText = "appV1_getProductSpecs"
                 };
-
+                sqlCmd.Parameters.AddWithValue("@product_id", productId);
                 return await _dataReaderMapper.MapToListAsync<ProductSpecRaw>(sqlCmd, map);
+            }
+            catch (Exception e)
+            {
+                // _logger.LogError("UserRepository:GetUserAUthoizedOptionsAsync:{0}", e.Message);
+            }
+            return null;
+        }
+
+
+        public async Task<List<ProductFeature>> GetProductFeaturesAsync(int productId)
+        {
+            try
+            {
+                var map = _maps.ProductFeatures;
+                var sqlCmd = new SqlCommand
+                {
+                    CommandType = CommandType.StoredProcedure,
+                    CommandText = "appV1_getProductFeatures"
+                };
+                sqlCmd.Parameters.AddWithValue("@product_id", productId);
+                return await _dataReaderMapper.MapToListAsync<ProductFeature>(sqlCmd, map);
+            }
+            catch (Exception e)
+            {
+                // _logger.LogError("UserRepository:GetUserAUthoizedOptionsAsync:{0}", e.Message);
+            }
+            return null;
+        }
+
+
+        public async Task<List<ProductImage>> GetProductImagesAsync(int productId, int productItemId)
+        {
+            try
+            {
+                var map = _maps.ProductImages;
+                var sqlCmd = new SqlCommand
+                {
+                    CommandType = CommandType.StoredProcedure,
+                    CommandText = "appV1_getProductImages"
+                };
+                sqlCmd.Parameters.AddWithValue("@product_id", productId);
+                sqlCmd.Parameters.AddWithValue("@product_item_id", productItemId);
+                return await _dataReaderMapper.MapToListAsync<ProductImage>(sqlCmd, map);
+            }
+            catch (Exception e)
+            {
+                // _logger.LogError("UserRepository:GetUserAUthoizedOptionsAsync:{0}", e.Message);
+            }
+            return null;
+        }
+
+        public async Task<List<ProductAttribute>> GetProductAttributesAsync(int productId)
+        {
+            try
+            {
+                var map = _maps.ProductAttributes;
+                var sqlCmd = new SqlCommand
+                {
+                    CommandType = CommandType.StoredProcedure,
+                    CommandText = "appV1_getProductAttributes"
+                };
+                sqlCmd.Parameters.AddWithValue("@product_id", productId);
+                return await _dataReaderMapper.MapToListAsync<ProductAttribute>(sqlCmd, map);
+            }
+            catch (Exception e)
+            {
+                // _logger.LogError("UserRepository:GetUserAUthoizedOptionsAsync:{0}", e.Message);
+            }
+            return null;
+        }
+
+
+        public async Task<int> GetProductItemIdByColorSizeAsync(int productId, int sizeId, int colorId)
+        {
+            try
+            {
+                using (var sqlCmd = new SqlCommand())
+                {
+                    sqlCmd.CommandType = CommandType.StoredProcedure;
+                    sqlCmd.CommandText = "appv1_getProductItemByColorSize";
+                    sqlCmd.Parameters.AddWithValue("@color_id", colorId);
+                    sqlCmd.Parameters.AddWithValue("@size_id", sizeId);
+                    sqlCmd.Parameters.AddWithValue("@product_id", productId);
+
+                    var o = await _dataReaderMapper.ExecuteScalarAsync(sqlCmd);
+
+                    return o.ToInt32();
+                }
+            }
+            catch (Exception e)
+            {
+                // _logger.LogError("UserRepository:GetUserAUthoizedOptionsAsync:{0}", e.Message);
+            }
+            return 0;
+        }
+     
+        public async Task<List<ProductColor>> GetProductColorsAsync(int productId, int sizeId=0)
+        {
+            try
+            {
+                var map = _maps.ProductColors;
+                using (var sqlCmd = new SqlCommand())
+                {
+                    sqlCmd.CommandType = CommandType.StoredProcedure;
+                    sqlCmd.CommandText = "appV1_getProductColors";
+                    sqlCmd.Parameters.AddWithValue("@product_id", productId);
+
+
+                    return await _dataReaderMapper.MapToListAsync<ProductColor>(sqlCmd, map);
+                    
+                }
+            }
+            catch (Exception e)
+            {
+                // _logger.LogError("UserRepository:GetUserAUthoizedOptionsAsync:{0}", e.Message);
+            }
+            return null;
+        }
+
+        public async Task<List<ProductSize>> GetProductSizesAsync(int productId, int colorId = 0)
+        {
+            try
+            {
+                var map = _maps.ProductSizes;
+                using (var sqlCmd = new SqlCommand())
+                {
+                    sqlCmd.CommandType = CommandType.StoredProcedure;
+                    sqlCmd.CommandText = "appV1_getProductSizes";
+                    sqlCmd.Parameters.AddWithValue("@product_id", productId);
+
+                    return await _dataReaderMapper.MapToListAsync<ProductSize>(sqlCmd, map);
+                }
             }
             catch (Exception e)
             {

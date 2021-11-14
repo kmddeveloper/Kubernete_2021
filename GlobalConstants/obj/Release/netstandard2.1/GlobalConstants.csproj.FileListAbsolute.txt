@@ -7,3 +7,13 @@ C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\obj\Release\netst
 C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.dll
 C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.pdb
 C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.csproj.AssemblyReference.cache
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\GlobalConstants\bin\Release\netstandard2.1\GlobalConstants.deps.json
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\GlobalConstants\bin\Release\netstandard2.1\GlobalConstants.dll
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\GlobalConstants\bin\Release\netstandard2.1\GlobalConstants.pdb
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.csproj.AssemblyReference.cache
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.AssemblyInfoInputs.cache
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.AssemblyInfo.cs
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.csproj.CoreCompileInputs.cache
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.dll
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\GlobalConstants\obj\Release\netstandard2.1\GlobalConstants.pdb

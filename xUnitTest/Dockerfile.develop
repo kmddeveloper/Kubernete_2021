@@ -1,0 +1,28 @@
+FROM mcr.microsoft.com/dotnet/sdk:5.0
+ARG BUILD_CONFIGURATION=Debug
+ENV ASPNETCORE_ENVIRONMENT=Development
+ENV ASPNETCORE_URLS=http://+:80
+ENV DOTNET_USE_POLLING_FILE_WATCHER=true
+EXPOSE 80
+
+WORKDIR /src
+COPY ["AppConfiguration/AppConfiguration.csproj", "AppConfiguration/"]
+COPY ["DataReaderMapper/DataReaderMapper.csproj", "DataReaderMapper/"]
+COPY ["EFData/EFData.csproj", "EFData/"]
+COPY ["EFModel/EFModel.csproj", "EFModel/"]
+COPY ["Extensions/Extensions.csproj", "Extensions/"]
+COPY ["GlobalConstants/GlobalConstants.csproj", "GlobalConstants/"]
+COPY ["Kubernetes/Web.csproj", "Kubernetes/"]
+COPY ["Repository/Repository.csproj", "Repository/"]
+COPY ["Services/Services.csproj", "Services/"]
+COPY ["TransferObjects/TransferObjects.csproj", "TransferObjects/"]
+COPY ["xUnitTest/xUnitTest.csproj", "xUnitTest/"]
+
+RUN dotnet restore "xUnitTest/xUnitTest.csproj"
+COPY . .
+WORKDIR "/src/xUnitTest"
+RUN dotnet build --no-restore "xUnitTest.csproj" -c $BUILD_CONFIGURATION
+
+RUN echo "exec dotnet run --no-build --no-launch-profile -c $BUILD_CONFIGURATION --" > /entrypoint.sh
+
+ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]

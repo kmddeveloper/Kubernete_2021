@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "xUnitTest": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

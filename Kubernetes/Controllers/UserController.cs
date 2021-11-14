@@ -68,9 +68,8 @@ namespace Web.Controllers
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
-            }
-
-           return Ok(null);
+            }        
+           return Ok(user);
           
         }
 

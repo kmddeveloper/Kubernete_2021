@@ -1,9 +1,10 @@
-version: "3.9"
+version: '3.4'
+
 services:
   web:
     build: 
         context: ./Kubernetes
-        dockerfile: Dockerfile
+        dockerfile: Dockerfile        
     ports:
       - "5000:5000"
   reverseproxy:
@@ -14,7 +15,4 @@ services:
       - web
     ports:
       - "4000:4000"
-            
-
-      #docker-compose up  (to run)
-      #docker-compose down ( to shut it down)
+      

@@ -19,6 +19,12 @@ namespace Kubernetes.Repository
 
         Dictionary<string, MapRule> ItemInCartMap { get; }
         Dictionary<string, MapRule> ProductSpec { get; }
-        
+        Dictionary<string, MapRule> ProductFeatures { get; }
+        Dictionary<string, MapRule> ProductImages { get; }
+        Dictionary<string, MapRule> ProductAttributes { get; }
+
+        Dictionary<string, MapRule> ProductColors { get; }
+
+        Dictionary<string, MapRule> ProductSizes { get; }
     }
 }

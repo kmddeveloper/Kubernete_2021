@@ -34,3 +34,16 @@ C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\DataReaderMapper\obj\Release\nets
 C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\DataReaderMapper\obj\Release\netstandard2.1\DataReaderMapper.csproj.CopyComplete
 C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\DataReaderMapper\obj\Release\netstandard2.1\DataReaderMapper.dll
 C:\MyStuffs\Projects_aws\Kubernetes-CodeCommit\DataReaderMapper\obj\Release\netstandard2.1\DataReaderMapper.pdb
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\bin\Release\netstandard2.1\DataReaderMapper.deps.json
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\bin\Release\netstandard2.1\DataReaderMapper.dll
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\bin\Release\netstandard2.1\DataReaderMapper.pdb
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\bin\Release\netstandard2.1\AppConfiguration.dll
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\bin\Release\netstandard2.1\AppConfiguration.pdb
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\obj\Release\netstandard2.1\DataReaderMapper.csproj.AssemblyReference.cache
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\obj\Release\netstandard2.1\DataReaderMapper.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\obj\Release\netstandard2.1\DataReaderMapper.AssemblyInfoInputs.cache
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\obj\Release\netstandard2.1\DataReaderMapper.AssemblyInfo.cs
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\obj\Release\netstandard2.1\DataReaderMapper.csproj.CoreCompileInputs.cache
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\obj\Release\netstandard2.1\DataReaderMapper.dll
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\obj\Release\netstandard2.1\DataReaderMapper.pdb
+E:\MyStuffs\StarJamborree\Projects_Github\Kubernetes\DataReaderMapper\obj\Release\netstandard2.1\DataReaderMapper.csproj.CopyComplete

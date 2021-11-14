@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xH4q4r7hNX3VkGTR9ncqOt1Nzcep5re2IgvmBy1awfEUltGQbYNlZhW/Tog3+vUIxUhZBDbtgJGRdcIcoPaogw==",
+  "dgSpecHash": "PxjgjubLXY02SSOmQO7cI4K+knKM1Apzxg0MRtZYLAnqW2DSW6o/QKMAEspqX8aRCbkrkvG3KaTNAmefHrM2NA==",
   "success": true,
-  "projectFilePath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\Services\\Services.csproj",
+  "projectFilePath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kevin\\.nuget\\packages\\fastmember\\1.5.0\\fastmember.1.5.0.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

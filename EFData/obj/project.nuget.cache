@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TX6AraJAIrAUxnL2NqW2IoK27BRjsZSyhQt5Ch1eHsDtx4ix9KQTtLDYGHoM2iUvT/WaEK2HPgP8vA+WVbiKVQ==",
+  "dgSpecHash": "Racksg9d70gtADIiQA4RHDIzLzKzc2zRSe1Kz1aTeTVG+cgHuY4PEpMkTE+90yCUBVXQW0ZAPTCOOKJLOUoSrw==",
   "success": true,
-  "projectFilePath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj",
+  "projectFilePath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\EFData\\EFData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

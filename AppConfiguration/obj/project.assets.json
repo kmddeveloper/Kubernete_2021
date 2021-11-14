@@ -264,11 +264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
+      "projectUniqueName": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
       "projectName": "AppConfiguration",
-      "projectPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
+      "projectPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\AppConfiguration.csproj",
       "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\MyStuffs\\Projects_Github\\Kubernetes\\AppConfiguration\\obj\\",
+      "outputPath": "E:\\MyStuffs\\StarJamborree\\Projects_Github\\Kubernetes\\AppConfiguration\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -323,7 +323,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

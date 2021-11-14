@@ -39,6 +39,7 @@ namespace Web.Controllers
             return ApiResult(await _productService.GetProductsAsync(pageNum, pageSize, categoryId));               
         }
 
+      
 
         [Route("[action]/{categoryId}")]
         [HttpGet]

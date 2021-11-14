@@ -11,6 +11,7 @@ namespace EFModel
         [Required]
         public int Id { get; set; }
         public int ProductId { get; set; }
+        public int ProductItemId { get; set; }
 
         [Required]
         [MaxLength(50)]
@@ -29,8 +30,13 @@ namespace EFModel
         public string ImageUrl { get; set; }
 
         [Range(0, 1000000)]
-        public decimal Price { get; set; }     
+        public decimal Price { get; set; }
+        public double  MenSize{ get; set; }
+        public double  WomenSize { get; set; }
+        public string Color { get; set; }
 
         public int Quantity { get; set; }
+
+        public int AvailableQuantity { get; set; }
     }
 }

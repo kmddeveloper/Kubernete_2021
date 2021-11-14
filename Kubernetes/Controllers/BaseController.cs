@@ -41,7 +41,7 @@ namespace Web.Controllers
         protected ApiResponse<T> ApiResult<T>(T result) 
         {
             var context = HttpContext.Features.Get<IExceptionHandlerFeature>();
-
+          
             var exception = context?.Error;
 
             var statusCode = HttpContext.Response.StatusCode;
